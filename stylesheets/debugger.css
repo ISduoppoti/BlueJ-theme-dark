@@ -1,0 +1,54 @@
+.debugger-var-cell {
+    -fx-spacing: 0.4em;
+    -fx-alignment: center-left;
+    -fx-background-color: #272829;
+}
+.debugger-var-cell > .debugger-var-name {
+    -fx-font-weight: bold;
+    -fx-text-fill: #D9CDAE;
+}
+.debugger-stack, .debugger-var-cell {
+    -fx-font-family: "Source Sans Pro";
+    -fx-text-fill: #D9CDAE;
+}
+.debugger-var-object-ref {
+    -fx-cursor: hand;
+    -fx-text-fill: #8ab4f8;
+}
+.debugger-section {
+    -fx-padding: 0.5em;
+    -fx-background-color: #1c1c1c;
+}
+.debugger-thread-combo {
+    -fx-max-width: 800px;
+    -fx-background-color: #272829;
+    -fx-text-fill: #D9CDAE;
+}
+.debugger .split-pane {
+    -fx-background-color: #1c1c1c, #1c1c1c;
+}
+
+.debugger .terminate-icon {
+    -fx-stroke: #D9CDAE;
+    -fx-fill: #ff4444;
+}
+.debugger .step-icon {
+    -fx-alignment: center;
+}
+.debugger .step-icon-arrow, .debugger .step-icon-bar,
+.debugger .continue-icon-arrow, .debugger .step-into-icon {
+    -fx-stroke: #D9CDAE;
+    -fx-fill: #4CAF50;
+}
+.debugger .debugger-buttons {
+    -fx-hgap: 1em;
+    -fx-vgap: 1em;
+    -fx-padding: 1em;
+    -fx-alignment: center;
+    -fx-border-color: #404040;
+    -fx-background-color: #272829;
+}
+.debugger .debugger-buttons .button {
+    -fx-background-color: #404040;
+    -fx-text-fill: #D9CDAE;
+}
