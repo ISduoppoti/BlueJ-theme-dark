@@ -32,7 +32,8 @@
 }
 /* Default text colour */
 .token-default {
-    -fx-fill: #000000;
+    -fx-fill: #D9CDAE;
+    -fx-text-fill: #D9CDAE;
 }
 
 .scope-colors {

@@ -352,11 +352,16 @@
 }
 
 /* Preference Manager */
+.titled-pane > .title {
+    -fx-background-color: #404040;
+    -fx-text-fill: #D9CDAE;
+}
 .prefmgr-titled {
     -fx-collapsible: false;
     -fx-text-overrun: center-ellipsis;
     /* Needed to prevent some titles (especially user libraries) having very high min width: */
-    -fx-min-width: 400px;    
+    -fx-min-width: 400px;
+    -fx-text-fill: #D9CDAE;
 }
 .prefmgr-titled > *.content {
     -fx-border-width: 0;
@@ -546,13 +551,17 @@
 
     -fx-min-height:  16em;
     -fx-pref-height: 18em;
+
+    -fx-text-fill: #D9CDAE;
 }
 
 .team-test-connection .pane{
     -fx-padding: 0.833em; /* 10px */
     -fx-spacing: 0.833em;
 }
-
+.team-test-connection .pane TextFlow Text {
+    -fx-fill: #D9CDAE;
+}
 .team-load-SVNnotsupported {
     -fx-min-width:  51em;
     -fx-pref-width: 51em;
@@ -687,6 +696,7 @@
     -fx-text-fill: #D9CDAE;
 }
 .check-box {
+    -fx-background-color: #272829;
     -fx-text-fill: #D9CDAE;
 }
 .input-dialog-field {
@@ -706,4 +716,23 @@
     -fx-border-color: #444;
     -fx-border-width: 1;
     -fx-border-radius: 5px;
+}
+.arrow-button {
+    -fx-background-color: #272829;
+}
+.arrow {
+    -fx-background-color: #D9CDAE;
+}
+.content {
+    -fx-background-color: #1c1c1c;
+}
+.track {
+    -fx-background-color: #1c1c1c;
+}
+.progress-bar {
+    -fx-background-color: #1c1c1c;
+    -fx-accent: #D9CDAE;
+}
+.text {
+    -fx-fill: #D9CDAE;
 }
