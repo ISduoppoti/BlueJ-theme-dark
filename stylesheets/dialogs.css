@@ -406,9 +406,7 @@
     -fx-border-color: -fx-outer-border;
 }
 .prefmgr-pref-panel {
-    -fx-spacing: 1em;
-    -fx-padding: 2em 4em 2em 4em;
-    -fx-fill-width: true;
+    -fx-background-color: #1c1c1c;
 }
 
 .prefmgr-ext-innerpanel {
@@ -734,5 +732,44 @@
     -fx-accent: #D9CDAE;
 }
 .text {
+    -fx-fill: #D9CDAE;
+}
+.tab {
+    -fx-background-color: #272829;
+    -fx-border-radius: 5px;
+}
+.tab:hover {
+    -fx-border-color: #272829;
+    -fx-border-radius: 5px;
+}
+.tab:selected .focus-indicator {
+    -fx-border-color: #444;
+    -fx-border-width: 1;
+    -fx-border-radius: 2px;
+}
+.prefmgr-titled .title{
+    -fx-background-color: #272829;
+    -fx-text-fill: #D9CDAE;
+}
+.prefmgr-titled .title:hover{
+    -fx-background-color: #272829;
+    -fx-text-fill: #D9CDAE;
+}
+.virtual-flow .corner {
+    -fx-background-color: #272829; /* Match your dark theme */
+}
+.virtual-flow .scroll-bar:horizontal,
+.virtual-flow .scroll-bar:vertical {
+    -fx-background-color: #272829; /* Match your dark theme */
+}
+.virtual-flow .scroll-bar:horizontal .thumb,
+.virtual-flow .scroll-bar:vertical .thumb {
+    -fx-background-color: #444; /* Change color of the draggable part */
+    -fx-background-radius: 5px;
+}
+.blackbox-optin-header-text {
+    -fx-fill: #D9CDAE;
+}
+.blackbox-optin-explanation * {
     -fx-fill: #D9CDAE;
 }
