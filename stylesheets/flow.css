@@ -1,6 +1,6 @@
 .flow-top-bar {
     -fx-padding: 0.75em 1em 0.75em 1em;
-    -fx-background-color: hsb(0, 0%, 50%), rgb(225, 225, 225);
+    -fx-background-color: #1c1c1c;
     -fx-background-insets: 0 0 0 0, 0 0 1 0;
 }
 .flow-top-bar-buttons {
@@ -12,18 +12,18 @@
     -fx-label-padding: 0 0.3em 0 0.3em;
 }
 .margin-and-text-line {
-    -fx-background-color: white;
+    -fx-background-color: #272829;
     -fx-cursor: text;
 }
 .flow-margin-line {
     -fx-stroke: grey;
 }
 .flow-margin-background {
-    -fx-background-color: white;
+    -fx-background-color: #272829;
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-uncompiled .flow-margin-background {
-    -fx-background-color: hsb(0, 0%, 75%);
+    -fx-background-color: #363738;
 }
 .margin-and-text-line:bj-margin-error .flow-margin-background {
     -fx-background-color: hsb(0, 70%, 50%);
@@ -36,31 +36,29 @@
     -fx-alignment: center-right;
     -fx-graphic-text-gap: 0;
     -fx-label-padding: 0 2 0 0;
-    -fx-text-fill: black;
+    -fx-text-fill: #D9CDAE;
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-error .flow-line-label {
-    -fx-text-fill: white;
+    -fx-text-fill: #272829;
 }
 .text-line .flow-selection {
-    -fx-fill: hsb(211, 50%, 90%);
+    -fx-fill: rgba(217, 205, 174, 0.3);
     -fx-stroke: null;
 }
 .text-line .flow-find-result {
-    -fx-fill: hsb(211, 20%, 99%);
+    -fx-fill: rgba(255, 0, 0, 0.5);
     -fx-stroke: null;
 }
 .text-line .flow-bracket-match {
-    -fx-fill: hsb(0, 0%, 70%);
-    -fx-stroke: null;
+    -fx-stroke: #D9CDAE;
 }
 
 .text-line .flow-ime-input {
-    -fx-fill: hsb(180, 50%, 70%);
+    -fx-fill: #D9CDAE;
     -fx-stroke: null;
 }
 
-
 .line-container {
-    -fx-background-color: white;
+    -fx-background-color: #272829;
 }

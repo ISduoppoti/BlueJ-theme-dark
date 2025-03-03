@@ -22,3 +22,7 @@
 .tabbed-editor .tab-close-button:hover {
     -fx-background-color: darkred;
 }
+
+.margin-and-text-line {
+    -fx-background-color: red;;
+}

@@ -37,3 +37,6 @@
 .suggested-followup-pane > .suggested-followup-hbox {
     -fx-spacing: 1em;
 }
+.margin-and-text-line {
+    -fx-background-color: red;;
+}

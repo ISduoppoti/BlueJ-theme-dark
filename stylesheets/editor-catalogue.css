@@ -90,3 +90,6 @@
    -fx-border-width: 0 0 0 1;
    -fx-border-color: hsb(0, 0%, 70%);
 }
+.margin-and-text-line {
+   -fx-background-color: red;;
+}

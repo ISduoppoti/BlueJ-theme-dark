@@ -63,3 +63,6 @@
    /*-fx-text-fill: hsb(315, 100%, 55%);*/
    -fx-text-fill: hsb(175, 80%, 50%);
 }
+.margin-and-text-line {
+    -fx-background-color: red;;
+}

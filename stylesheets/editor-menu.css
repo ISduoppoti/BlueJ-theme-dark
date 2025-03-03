@@ -7,3 +7,47 @@
     -fx-font-size: 15;
     -fx-font-family: System;
 }
+
+.menu-bar {
+    -fx-background-color: #272829;
+}
+.menu-bar .label {
+    -fx-text-fill: #D9CDAE;
+}
+.menu-button:hover {
+    -fx-background-color: #363738;
+}
+.menu-button:showing {
+    -fx-background-color: #363738;
+}
+
+.context-menu {
+    -fx-background-color: #272829;
+}
+.context-menu .label  {
+    -fx-text-fill: #D9CDAE;
+}
+.context-menu .menu-item {
+    -fx-background-color: #272829;
+}
+.context-menu .menu-item:hover {
+    -fx-background-color: #363738;
+}
+
+.margin-and-text-line {
+    -fx-background-color: red;;
+}
+.button {
+    -fx-background-color: #272829;
+    -fx-text-fill: #D9CDAE;
+    -fx-border-color: #444;
+    -fx-border-width: 1;
+    -fx-border-radius: 5px;
+}
+.button:hover {
+    -fx-background-color: #363738;
+    -fx-text-fill: #D9CDAE;
+    -fx-border-color: #444;
+    -fx-border-width: 1;
+    -fx-border-radius: 5px;
+}

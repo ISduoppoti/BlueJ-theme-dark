@@ -1,28 +1,28 @@
 .token-keyword1 {
-    -fx-fill: #660033;
+    -fx-fill: #fe3265;
 }
 .token-keyword2 {
-    -fx-fill: #cc0000;
+    -fx-fill: #fe3265;
 }
 .token-keyword3 {
-    -fx-fill: #006699;
+    -fx-fill: #459ac5;
 }
 
 .token-comment-normal {
     -fx-fill: #999999;
 }
 .token-comment-javadoc {
-    -fx-fill: #000099;
+    -fx-fill: #999999;
 }
 .token-comment-special {
-    -fx-fill: #ee00bb;
+    -fx-fill: #272829;
 }
 
 .token-primitive {
     -fx-fill: #cc0000;
 }
 .token-string-literal {
-    -fx-fill: #006600;
+    -fx-fill: #ffd85d;
 }
 .token-label {
     -fx-fill: #999999;
@@ -32,25 +32,24 @@
 }
 /* Default text colour */
 .token-default {
-    -fx-fill: #D9CDAE;
-    -fx-text-fill: #D9CDAE;
+    -fx-fill: white;
 }
 
 .scope-colors {
-    -bj-background-color: white;
+    -bj-background-color: #272829;
 
-    -bj-class-color: rgb(225, 248, 225);
-    -bj-class-outer-color: rgb(188, 218, 188);
-    -bj-class-inner-color: rgb(210, 230, 210);
+    -bj-class-color: #272829;
+    -bj-class-outer-color: transparent;
+    -bj-class-inner-color: transparent;
 
-    -bj-method-color: rgb(250, 250, 180);
-    -bj-method-outer-color: rgb(215, 215, 205);
+    -bj-method-color: #272829;
+    -bj-method-outer-color: transparent;
 
-    -bj-selection-color: rgb(233, 233, 248);
-    -bj-selection-outer-color: rgb(188, 188, 210);
+    -bj-selection-color: #272829;
+    -bj-selection-outer-color: transparent;
 
-    -bj-iteration-color: rgb(248, 233, 248);
-    -bj-iteration-outer-color: rgb(210, 177, 210);
+    -bj-iteration-color: #272829;
+    -bj-iteration-outer-color: transparent;
 
     -bj-breakpoint-overlay-color: rgba(200, 20, 20, 0.6);
     -bj-step-overlay-color: rgba(20, 140, 20, 0.6);
@@ -58,11 +57,11 @@
 
 .moe-step-mark-icon {
     -fx-fill: rgb(20, 140, 20);
-    -fx-stroke: white;
+    -fx-stroke: #272829;
 }
 
 .moe-editor-pane {
-    -fx-background-color: white;
+    -fx-background-color: #272829;
     -fx-highlight-fill: hsb(211, 50%, 90%);
 }
 

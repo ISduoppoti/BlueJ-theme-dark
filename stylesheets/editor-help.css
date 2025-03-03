@@ -30,3 +30,6 @@
     -fx-background-radius: 5;
    -fx-padding: 5;
 }
+.margin-and-text-line {
+   -fx-background-color: red;;
+}
