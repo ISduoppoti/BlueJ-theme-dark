@@ -23,9 +23,8 @@
 }
 .field-list .inspector-field-value-label {
     -fx-alignment: baseline-center;
-    -fx-background-color: transparent, white;
     -fx-background-insets: 0, 3;
-    -fx-text-fill: black !important;
+    -fx-text-fill: #D9CDAE !important;
 }
 .field-list .inspector-field-value-wrapper {
     -fx-padding:  0 5 0 5;
@@ -36,6 +35,7 @@
 
 .inspector {
     -fx-spacing: 1em;
+    -fx-background-color: #272829;
 }
 
 .inspector-class {
@@ -66,7 +66,7 @@
     -fx-background-color: transparent;
 }
 .inspector-result .inspector-result-details {
-    -fx-background-color: rgb(230,230,230);
+    -fx-background-color: #272829;
 }
 .inspector .field-list-content {
     -fx-padding: 1em;
@@ -75,16 +75,19 @@
     -fx-padding: 1em 0.5em 0.5em 0.5em;
     -fx-font-weight: bold;
 }
+.inspector-result-details-header Text {
+    -fx-fill: #D9CDAE;
+}
 
 .inspector .button:disabled {
     -fx-opacity: 0.5;
 }
 
 .inspector-object .field-list-content .inspector-field-value-wrapper:bj-selected, .inspector-result .field-list-content  .inspector-field-value-wrapper:bj-selected {
-    -fx-background-color: rgb(233, 225, 0), black, white; 
+    -fx-background-color: #272829, black, #363636; 
 }
 .inspector-object .field-list-content .inspector-field-description:bj-selected, .inspector-result .field-list-content  .inspector-field-description:bj-selected {
-    -fx-background-color: rgb(233, 225, 0);
+    -fx-background-color: #272829;
 }
 .inspector-class .field-list-content .inspector-field-value-wrapper:bj-selected {
     -fx-background-color: rgb(180, 220, 240), black, white; 

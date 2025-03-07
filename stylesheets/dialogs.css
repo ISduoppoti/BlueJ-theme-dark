@@ -288,7 +288,7 @@
     -fx-font-style: italic;
 }
 .formatted-print-flow .formatted-print-line:bj-color-default {
-    -fx-fill: black;
+    -fx-fill: #D9CDAE;
 }
 .formatted-print-flow .formatted-print-line:bj-color-gray {
     -fx-fill: darkslategrey;
