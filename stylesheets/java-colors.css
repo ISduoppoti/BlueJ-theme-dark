@@ -62,7 +62,7 @@
 
 .moe-editor-pane {
     -fx-background-color: #272829;
-    -fx-highlight-fill: hsb(211, 50%, 90%);
+    -fx-highlight-fill: #363738;
 }
 
 .moe-find-result {

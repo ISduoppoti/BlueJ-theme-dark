@@ -406,8 +406,3 @@
 .menu-button:showing {
     -fx-background-color: #363738;
 }
-
-.formatted-print-line {
-    -fx-background-color: red;
-    -fx-fill: #D9CDAE;
-}

@@ -1,10 +1,16 @@
 .tabbed-editor > .tab-header-area > .tab-header-background {
-    -fx-background-color: hsb(0, 0%, 50%);
+    -fx-background-color: #1c1c1c;
+}
+.tabbed-editor:focused .tab-header-area .headers-region .moe-tab .tab-container .focus-indicator {
+    -fx-border-color: #696969 !important;
+}
+.tabbed-editor .tab-header-area .headers-region .moe-tab .tab-container .tab-label .label .text {
+    -fx-fill: #D9CDAE !important;
 }
 
 .tabbed-editor > .tab-header-area .tab {
     -fx-border-width: 0 0 2 0;
-    -fx-border-color: hsb(0, 0%, 30%);
+    -fx-border-color: red;
 }
 .tabbed-editor > .tab-header-area .bj-tab-error .tab-label {
     -fx-border-width : 0 0 2 0;
@@ -12,11 +18,12 @@
 }
 .tabbed-editor > .tab-header-area .moe-tab:selected {
     /* Remove border at bottom of tab when selected: */
-    -fx-background-color: rgb(225, 225, 225) !important;
+    -fx-background-color: #363738 !important;
     -fx-border-color: transparent !important;
 }
 .tabbed-editor > .tab-header-area  {
     -fx-padding: 2 5 -1 5;
+    -fx-background-color: #1c1c1c;
 }
 
 .tabbed-editor .tab-close-button:hover {
@@ -25,4 +32,20 @@
 
 .margin-and-text-line {
     -fx-background-color: red;;
+}
+
+.combo-box {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: #D9CDAE;
+}
+.list-cell .text {
+    -fx-fill: #D9CDAE;
+}
+.list-cell {
+    -fx-background-color: #363738;
+}
+.list-view {
+    -fx-background-color: #363738;
+    -fx-border-color: #272829;
+    -fx-border-width: 1px;
 }
